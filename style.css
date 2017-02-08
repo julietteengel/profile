@@ -59,6 +59,10 @@ a:hover i {
   border-radius: 5px;
 }
 
+#first-card {
+  padding-top: 55px;
+}
+
 
 /*Layout*/
 .container {
