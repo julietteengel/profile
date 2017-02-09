@@ -2,7 +2,7 @@ body{
   margin:50px 0px;
   padding:0;
   font-family:'Roboto', sans-serif;
-  font-size: 10pt;
+  font-size: 15px;
   color: #393D54;
   font-weight: 200;
   background-color: #e6eaea;
@@ -11,11 +11,13 @@ body{
 h1{
   color:#3C948B;
   line-height: 70%;
-  font-size: x-large;
+  /*font-size: large;*/
+  font-weight: 700;
 }
 
 h2{
-  line-height: 50%;
+/*  line-height: 50%;*/
+  font-weight: 500;
 }
 
 a, a:visited, a:active {
@@ -51,11 +53,17 @@ a:hover i {
   display: block;
 }
 
+.fontawesome-margin {
+  margin-left: 15px;
+  font-size: 25px;
+}
+
 /*Card*/
 .card {
   background-color: white;
   padding: 20px;
   margin: 20px 0px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 
@@ -70,6 +78,32 @@ a:hover i {
   margin:0 auto;
 }
 
+#left-container {
+  float:left;
+  width: 35%;
+  min-height: 700px;
+}
+
+
+#left-container .card {
+  min-height: 350px;
+}
+#left-container .card {
+  min-height: 120px;
+}
+
+
+#right-container {
+  float:right;
+  width: 60%;
+  min-height: 700px;
+}
+
+/*Text*/
+
+.text-film {
+  float: right;
+}
 
 /*Img*/
 .img-circle {
@@ -82,6 +116,11 @@ a:hover i {
   border: 3px solid #9B9B9B;
 }
 
+.img-film {
+  max-width: 100px;
+  height: auto;
+}
+
 /*Tab*/
 table td {
   padding: 10px;
@@ -92,7 +131,9 @@ table td {
   text-align: center;
 }
 
-
+div {
+    display: block;
+}
 
 
 
@@ -118,6 +159,26 @@ table td {
 }
 .nav > li > a:hover {
     color:#1A99AA;
+}
+
+/*Footer*/
+
+.clear{
+  clear: both;
+}
+
+#footer{
+  position: relative;
+  padding: 10px 400px 60px 20px;
+  margin-bottom: 0px;
+}
+
+#share {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    padding-right: 10px;
+    right: 0px;
 }
 
 /*
